@@ -1,0 +1,190 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "chi": {
+          "value": 5,
+          "min": 0,
+          "max": 10
+        },
+        "willpower": {
+          "value": 0,
+          "min": 0,
+          "max": 10
+        },
+        "glory": {
+          "value": 0,
+          "min": 0,
+          "max": 10
+        },
+        "honor": {
+          "value": 0,
+          "min": 0,
+          "max": 10
+        },
+        "biography": "",
+        "division":"",
+        "rank":"",
+        "wins":"",
+        "losses":"",
+        "draws":"",
+        "ko":"",
+        "exprience":""
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "attributes": {
+        "physical": {
+          "strength": {
+            "value": 1
+          },
+          "dexterity": {
+            "value": 1
+          },
+          "stamina": {
+            "value": 1
+          }
+        },
+        "social": {
+          "presence": {
+            "value": 1
+          },
+          "manipulation": {
+            "value": 1
+          },
+          "composure": {
+            "value": 1
+          }
+        },
+        "mental":{
+          "intelligence": {
+            "value": 1
+          },
+          "wits": {
+            "value": 1
+          },
+          "perception": {
+            "value": 1
+          }
+        }
+      },
+      "abilities":{
+        "talents": {
+          "alertness":{
+            "value":0
+          },
+          "interrogation":{
+            "value":0
+          },
+          "intimidation":{
+            "value":0
+          },
+          "insight":{
+            "value":0
+          },
+          "streetwise":{
+            "value":0
+          },
+          "sybterfuge":{
+            "value":0
+          }
+        },
+        "skills": {
+          
+          "blind_fighting":{
+            "value":0
+          },
+          "drive":{
+            "value":0
+          },
+          "leadership":{
+            "value":0
+          },
+          "security":{
+            "value":0
+          },
+          "stealth":{
+            "value":0
+          },
+          "survival":{
+            "value":0
+          }
+        },
+        "Knowleges":{
+          
+          "arena":{
+            "value":0
+          },
+          "computer":{
+            "value":0
+          },
+          "investigation":{
+            "value":0
+          },
+          "medicine":{
+            "value":0
+          },
+          "mysteries":{
+            "value":0
+          },
+          "style_lore":{
+            "value":0
+          }
+        }
+      },
+      "Techniques":{
+        "punch":{
+          "value": 0
+        },
+        "kick": {
+          "value": 0
+        },
+        "block":{
+          "value": 0
+        },
+        "grab": {
+          "value": 0
+        },
+        "athletics": {
+          "value": 0
+        },
+        "focus":{
+          "value": 0
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["item", "feature", "technique","style", "special_maneuvers"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "feature": {
+      "templates": ["base"]
+    },
+    "technique": {
+      "templates": ["base"]
+    },
+    "style": {
+      "templates": ["base"]
+    },
+    "special_maneuvers": {
+      "templates": ["base"]
+    }
+  }
+}
