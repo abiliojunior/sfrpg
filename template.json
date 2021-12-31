@@ -162,7 +162,7 @@
     }
   },
   "Item": {
-    "types": ["item", "feature", "technique","style", "special_maneuvers"],
+    "types": ["item", "feature", "technique","style", "maneuver"],
     "templates": {
       "base": {
         "description": ""
@@ -171,8 +171,7 @@
     "item": {
       "templates": ["base"],
       "quantity": 1,
-      "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+      "weight": 0
     },
     "feature": {
       "templates": ["base"]
@@ -183,8 +182,16 @@
     "style": {
       "templates": ["base"]
     },
-    "special_maneuvers": {
-      "templates": ["base"]
+    "maneuver": {
+      "templates": ["base"],
+      "type":"",
+      "prerequisites":"",
+      "power_points":"",
+      "system_rule":"",
+      "cost":"",
+      "speed":"",
+      "damage":"",
+      "move":""      
     }
   }
 }

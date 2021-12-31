@@ -1,0 +1,65 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+    <div class="header-fields">
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+      
+    </div>
+  </header>
+  
+  <div>
+    <table>
+     <tr>
+        <td>{{ localize "SFRPG.maneuvers.type" }}</td>
+        <td>
+          <input name="data.type" type="text" value="{{data.type}}" placeholder="{{ localize "SFRPG.maneuvers.type" }}"/>
+        </td>
+      </tr>
+      <tr>
+        <td>{{ localize "SFRPG.maneuvers.prerequisites" }}</td>
+        <td>
+          <input name="data.prerequisites" type="text" value="{{data.prerequisites}}" placeholder="{{ localize "SFRPG.maneuvers.prerequisites" }}"/>
+        </td>
+      </tr>
+      <tr>
+        <td>{{ localize "SFRPG.maneuvers.power_points" }}</td>
+        <td>
+          <input name="data.power_points" type="text" value="{{data.power_points}}" placeholder="{{ localize "SFRPG.maneuvers.power_points" }}"/>
+        </td>
+      </tr>
+      <tr>
+        <td>{{ localize "SFRPG.maneuvers.system_rule" }}</td>
+        <td>
+          <input name="data.system_rule" type="text" value="{{data.system_rule}}" placeholder="{{ localize "SFRPG.maneuvers.system_rule" }}"/>
+        </td>
+      </tr>
+      <tr>
+        <td>{{ localize "SFRPG.maneuvers.cost" }}</td>
+        <td>
+          <input name="data.cost" type="text" value="{{data.cost}}" placeholder="{{ localize "SFRPG.maneuvers.cost" }}"/>
+        </td>
+      </tr>
+      <tr>
+        <td>{{ localize "SFRPG.maneuvers.speed" }}</td>
+        <td>
+          <input name="data.speed" type="text" value="{{data.speed}}" placeholder="{{ localize "SFRPG.maneuvers.speed" }}"/>
+        </td>
+      </tr>
+      <tr>
+        <td>{{ localize "SFRPG.maneuvers.damage" }}</td>
+        <td>
+          <input name="data.damage" type="text" value="{{data.damage}}" placeholder="{{ localize "SFRPG.maneuvers.damage" }}"/>
+        </td>
+      </tr>
+      <tr>
+        <td>{{ localize "SFRPG.maneuvers.move" }}</td>
+        <td>
+          <input name="data.move" type="text" value="{{data.move}}" placeholder="{{ localize "SFRPG.maneuvers.move" }}"/>
+        </td>
+      </tr>
+
+     
+    </table>
+  </div>
+  </form>
+  

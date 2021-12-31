@@ -5,5 +5,25 @@
   "SFRPG.EffectEdit": "Edit Effect",
   "SFRPG.EffectDelete": "Delete Effect",
 
-  "SFRPG.Add": "Add"
+  "SFRPG": {
+    "maneuvers_type":{
+      "none":"",
+      "basic":"Basic",
+      "special":"Special",
+      "weapon":"Weapon"
+    },
+
+    "maneuvers":{
+      "type":"Type",
+      "prerequisites":"Prerequisites",
+      "power_points":"Power Points",
+      "system_rule":"System",
+      "cost":"Cost",
+      "speed":"Speed",
+      "damage":"Damage",
+      "move":"Move"      
+    }
+  }
+
+
 }

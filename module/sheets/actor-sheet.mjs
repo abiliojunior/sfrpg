@@ -12,7 +12,7 @@ export class sfrpgActorSheet extends ActorSheet {
       classes: ["sfrpg", "sheet", "actor"],
       template: "systems/sfrpg/templates/actor/actor-sheet.html",
       width: 600,
-      height: 600,
+      height: 800,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
     });
   }

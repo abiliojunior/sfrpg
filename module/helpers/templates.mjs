@@ -11,5 +11,6 @@
     "systems/sfrpg/templates/actor/parts/actor-items.html",
     "systems/sfrpg/templates/actor/parts/actor-effects.html",
     "systems/sfrpg/templates/actor/parts/actor-stats.html",
+    "systems/sfrpg/templates/actor/parts/actor-abilities.html",
   ]);
 };

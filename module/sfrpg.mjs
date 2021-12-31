@@ -44,6 +44,7 @@ Hooks.once('init', async function() {
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("sfrpg", sfrpgItemSheet, { makeDefault: true });
 
+
   // Preload Handlebars templates.
   return preloadHandlebarsTemplates();
 });
